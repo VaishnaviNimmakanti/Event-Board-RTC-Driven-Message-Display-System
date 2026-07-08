@@ -1,7 +1,7 @@
 # Event-Board-RTC-Driven-Message-Display-System
-Overview
-The EventBoard – RTC-Driven Message Display System is an embedded systems project developed using the LPC2148 (ARM7) microcontroller. It automatically displays predefined event messages on a 16×2 LCD based on the current date and time using the built-in Real-Time Clock (RTC). The system also provides a secure Admin Mode that allows authorized users to update the RTC time and enable or disable scheduled messages. During idle periods, the LCD displays the current time, date, and room temperature measured using the LM35 temperature sensor, making it a smart and efficient real-time information display system.
-Objective
+#Overview
+#The EventBoard – RTC-Driven Message Display System is an embedded systems project developed using the LPC2148 (ARM7) microcontroller. It automatically displays predefined event messages on a 16×2 LCD based on the current date and time using the built-in Real-Time Clock (RTC). The system also provides a secure Admin Mode that allows authorized users to update the RTC time and enable or disable scheduled messages. During idle periods, the LCD displays the current time, date, and room temperature measured using the LM35 temperature sensor, making it a smart and efficient real-time information display system.
+#Objective
 *Develop an RTC-based automated event display system.
 *Display scheduled messages automatically at predefined times.
 *Provide password-protected Admin Mode for secure system configuration.
