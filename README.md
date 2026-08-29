@@ -65,4 +65,7 @@ During normal operation, when the RTC time matches a scheduled message, the corr
 |   4 | **Proteus**                              | Used for circuit simulation and testing of the embedded system        |
 |   5 | **LPC2148 ARM7 Development Environment** | Used for developing and testing the microcontroller-based application |
 
+## 📊Block Diagram
+
+<img width="1402" height="1122" alt="ChatGPT Image Aug 29, 2026, 11_41_29 PM" src="https://github.com/user-attachments/assets/c084d6cb-5eee-4742-9788-433319a5284d" />
 
