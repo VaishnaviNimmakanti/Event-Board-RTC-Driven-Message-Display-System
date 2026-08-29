@@ -42,6 +42,14 @@ During normal operation, when the RTC time matches a scheduled message, the corr
 6. To monitor and display room temperature using an LM35 sensor and the LPC2148's built-in ADC.
 7. To use LED indicators to differentiate between active message display and idle display modes.
 
+## 🔧 Hardware Components
+
+1.	LPC2148 ARM7 Microcontroller	Main controller that manages the RTC, LCD, keypad, ADC, and overall system operation.
+2.	16×2 LCD Display	Displays scheduled messages, scrolling text, current time, and temperature.
+3.	4×4 Keypad	Used to enter the password and interact with Admin Mode.
+4.	RTC (Real-Time Clock)	Maintains the current time and enables time-based message scheduling.
+5.	LM35 Temperature Sensor	Measures room temperature.
+6.	LEDs (Green & Red)	Indicate active message display and idle display modes.
 
 
 
