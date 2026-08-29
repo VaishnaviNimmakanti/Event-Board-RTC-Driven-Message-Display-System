@@ -55,3 +55,14 @@ During normal operation, when the RTC time matches a scheduled message, the corr
 | 7 | **Buzzer** | Provides audio alerts |
 | 8 | **Admin Mode Switch** | Used to enter Admin Mode |
 
+## 💻 Software Components
+
+| No. | Software Component                       | Purpose                                                               |
+| --: | ---------------------------------------- | --------------------------------------------------------------------- |
+|   1 | **Embedded C**                           | Used to develop the firmware and control the complete system          |
+|   2 | **Keil C Compiler**                      | Used for writing, compiling, and debugging the Embedded C program     |
+|   3 | **Flash Magic**                          | Used to program/flash the firmware into the LPC2148 microcontroller   |
+|   4 | **Proteus**                              | Used for circuit simulation and testing of the embedded system        |
+|   5 | **LPC2148 ARM7 Development Environment** | Used for developing and testing the microcontroller-based application |
+
+
