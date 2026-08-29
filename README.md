@@ -82,11 +82,13 @@ During normal operation, when the RTC time matches a scheduled message, the corr
 5. If an event is active:
 
 Displays the scrolling event message on the LCD.
+
 Turns on the Green LED.
 
 6.If no event is active:
 
 Displays the current time, date, day, and temperature.
+
 Turns on the Red LED.
 
 7.At the start of each new minute, shows the next scheduled event if none is currently active.
