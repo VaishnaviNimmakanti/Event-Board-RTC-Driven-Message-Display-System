@@ -69,3 +69,26 @@ During normal operation, when the RTC time matches a scheduled message, the corr
 
 <img width="1402" height="1122" alt="ChatGPT Image Aug 29, 2026, 11_41_29 PM" src="https://github.com/user-attachments/assets/c084d6cb-5eee-4742-9788-433319a5284d" />
 
+## ⚙️ Working
+
+1. Initializes the LCD, keypad, ADC, GPIO, and RTC.
+
+2. Reads the current time and date from the RTC.
+
+3. Reads the temperature through the ADC and converts it for display.
+
+4. Checks whether any scheduled event is currently active.
+
+5. If an event is active:
+
+Displays the scrolling event message on the LCD.
+Turns on the Green LED.
+
+6.If no event is active:
+
+Displays the current time, date, day, and temperature.
+Turns on the Red LED.
+
+7.At the start of each new minute, shows the next scheduled event if none is currently active.
+
+8.Detects a long keypad press to enter the administrator menu for event management.
