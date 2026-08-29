@@ -14,8 +14,6 @@
 
 ⚙️ **Working**
 
-📸 **Project Images and Videos**
-
 🌐 **Applications**
 
 🚀 **Future Enhancement**
