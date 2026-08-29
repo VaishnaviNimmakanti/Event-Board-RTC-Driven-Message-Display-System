@@ -44,12 +44,14 @@ During normal operation, when the RTC time matches a scheduled message, the corr
 
 ## 🔧 Hardware Components
 
-1.	LPC2148 ARM7 Microcontroller	Main controller that manages the RTC, LCD, keypad, ADC, and overall system operation.
-2.	16×2 LCD Display	Displays scheduled messages, scrolling text, current time, and temperature.
-3.	4×4 Keypad	Used to enter the password and interact with Admin Mode.
-4.	RTC (Real-Time Clock)	Maintains the current time and enables time-based message scheduling.
-5.	LM35 Temperature Sensor	Measures room temperature.
-6.	LEDs (Green & Red)	Indicate active message display and idle display modes.
-
-
+| No. | Component | Purpose |
+|---:|---|---|
+| 1 | **LPC2148 ARM7 Microcontroller** | Main controller for managing all system operations |
+| 2 | **16×2 LCD Display** | Displays scheduled messages, time, and temperature |
+| 3 | **4×4 Keypad** | Used for password entry and Admin Mode operations |
+| 4 | **RTC (Real-Time Clock)** | Maintains current time and controls time-based message scheduling |
+| 5 | **LM35 Temperature Sensor** | Measures the room temperature |
+| 6 | **Green & Red LEDs** | Indicate active message and idle display modes |
+| 7 | **Buzzer** | Provides audio alerts |
+| 8 | **Admin Mode Switch** | Used to enter Admin Mode |
 
